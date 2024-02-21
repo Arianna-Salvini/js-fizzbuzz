@@ -5,10 +5,8 @@ const container = document.getElementById("container")
 for (let i = 1; i <= 100; i++) {
 
     let ul = document.createElement("ul")
-    let il = document.createElement("il")
 
     container.append(ul)
-    ul.append(il)
 
     let number = i
 
@@ -27,8 +25,8 @@ for (let i = 1; i <= 100; i++) {
         number=i
     }
 
-    il.append(number)
+    ul.insertAdjacentHTML("afterbegin", `<li> ${number} </li>`)
+    ul.className="list_item"
 };
-
 
 
