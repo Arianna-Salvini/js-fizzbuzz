@@ -1,3 +1,50 @@
-body{
+body {
     background-color: antiquewhite;
+}
+
+
+h1 {
+    text-align: center;
+    text-shadow: 1rem;
+}
+
+#container {
+    width: 50rem;
+    margin: auto;
+}
+
+.list_unordered {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1rem;
+
+    &>li {
+        list-style: none;
+        width: 5rem;
+        aspect-ratio: 1;
+        padding: 1rem;
+        font-size: 1.5rem;
+        border: 1px solid;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 5px 5px 5px grey;
+    }
+}
+
+.fizz {
+    color: darkslategray;
+    background-color: aquamarine;
+}
+
+.buzz {
+    color: darkolivegreen;
+    background-color: chartreuse;
+}
+
+.fizz_buzz {
+    color: darkslateblue;
+    background-color: yellow;
+    text-align: center;
 }

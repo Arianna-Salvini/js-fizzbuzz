@@ -10,18 +10,20 @@ for (let i = 1; i <= 100; i++) {
 
     if ((i % 3 == 0) && (i % 5 == 0)) {
         console.log("FizzBUzz")
-        li.innerHTML = "FizzBuzz"
+        li.innerHTML = "Fizz Buzz"
+        li.className = "fizz_buzz"
       
     } else if (i % 5 == 0) {
         console.log("Buzz");
         li.innerHTML = "Buzz"
+        li.className = "buzz"
 
 
 
     } else if (i % 3 == 0) {
         console.log("Fizz")
         li.innerHTML = "Fizz"
-     
+        li.className = "fizz"
 
     } else {
         console.log(i);
@@ -30,7 +32,7 @@ for (let i = 1; i <= 100; i++) {
     }
 
     ul.append(li)
-    ul.className="list_item"
+    ul.className="list_unordered"
 };
 
 
