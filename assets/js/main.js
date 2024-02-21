@@ -1,6 +1,6 @@
 console.log("Fizz or Buzz?");
 
-for (let i = 0; i <= 100; i++) {
+for (let i = 1; i <= 100; i++) {
 
     if ((i % 3 == 0) && (i % 5 == 0)){
         console.log("BuzzFizz")
@@ -14,4 +14,14 @@ for (let i = 0; i <= 100; i++) {
         console.log(i);
     }
 };
+
+const container = document.getElementById("container")
+let ul = document.createElement("ul")
+let il = document.createElement("il")
+
+
+container.append(ul)
+ul.append(il)
+
+
 
