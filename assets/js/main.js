@@ -1,0 +1,1 @@
+console.log("Fizz or Buzz?");
