@@ -1,13 +1,20 @@
 # Consegna:
 Scrivi un programma che stampi in console i numeri da 1 a 100, ma che per i multipli di 3 stampi “Fizz” al posto del numero e per i multipli di 5 stampi “Buzz”. Per i numeri che sono sia multipli di 3 che di 5 stampi “FizzBuzz”.
-Prima di partire a scrivere codice poniamoci qualche domanda:
-Come faccio a sapere se un numero è divisibile per un altro? Abbiamo visto qualcosa di particolare che possiamo usare?
-:lampadina:Si, lo abbiamo intravisto mentre facevamo la lezione sulle stringhe e i numeri (Cerco un operatore che fa al caso mio)
 
-# Consigli del giorno:
-Scriviamo sempre prima dei commenti in italiano per capire cosa vogliamo fare
-Proviamo ad immaginare le operazioni che vogliamo far svolgere al nostro programma così come lo faremmo "a mano"
-:insetto: Ricordate di usare il console.log() sia in fase di preparazione e verifica dei dati che ovviamente durante il degugging per scovare potenziali errori!
+ - STEP 1: Stampo in console unseri di numeri da 1a 100
+    - Creo un ciclo FOR
+        - Stampo in console
+
+ - STEP 2: Trovo i multipli di 3 e al loro posto stampo "Frizz"
+    - Creo un IF per identificare se il numero è divisibile per 3
+    - A condizione soddisfatta sostituisco il numero con “Fizz” e stampo in console
+  
+ - STEP 3: Trovo i multipli di 5 e al loro posto stampo "Buzz"
+    - Creo un IF per identificare se il numero è divisibile per 5
+    - A condizione soddisfatta sostituisco il numero con “Fizz” e stampo in console
+
+ - STEP 4: Trovo i multipli di 3 E 5 e scrivo "FrizzBuzz"
+    - Se i numeri soddisfano entrambe le condizioni Stampare "FrizzBuss"
 
 # BONUS 1:
 Crea un container nel DOM , aggiungendo (attraverso la funzione append()) un elemento html con il numero o la stringa corretta da mostrare.
